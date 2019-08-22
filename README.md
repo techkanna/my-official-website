@@ -1,7 +1,7 @@
 # my official website
 
-  * ##futures
+ * ## futures
    * fully responsiveness
    * using scss for css 
 
-** good updates are welcomed **
+**good updates are welcomed**
