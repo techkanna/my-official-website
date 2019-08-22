@@ -1,6 +1,6 @@
 # my official website
 
-  * ##futures
+ * ##futures
    * fully responsiveness
    * using scss for css 
 
