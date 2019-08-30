@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/90109285e4.js"></script>
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.min.css">
 	<link rel="shortcut icon" type="image/x-icon" href="chess.ico">
     <title>Welcome To My Portfolio</title>
@@ -51,7 +52,7 @@
     </section>
 
 		<!-- Work -->
-    <section id="work">
+    <section id="work" data-aos="fade-left">
       <div class="container">
         <header>
           <h2 class="larg">Here's all the stuff I can do.</h2>
@@ -76,7 +77,7 @@
     </section>
 
 		<!-- Portfolio -->
-    <section id="portfolio">
+    <section id="portfolio" data-aos="fade-right">
       <div class="container">
         <header>
           <h2 class="larg">Here’s some stuff I made recently.</h2>
@@ -144,7 +145,7 @@
     </section>
 
 		<!-- Contact -->
-    <section id="contact">
+    <section id="contact" data-aos="fade-up">
       <div class="container">
         <header>
           <h2 class="larg">Have me make stuff for you.</h2>
@@ -175,7 +176,7 @@
                 </div>              
             </form>
           </div>
-          <div class="links">
+          <div class="links" data-aos="fade-right">
             <hr />
             <h3>Find me on ...</h3>
             <ul class="icons">
@@ -217,5 +218,12 @@
 	<script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/jqueryjs.js"></script>
 	 <script src="js/main.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 1000
+    });
+  </script>
 	</body>
 </html>
